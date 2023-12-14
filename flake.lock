@@ -1000,6 +1000,20 @@
         "owner": "anoma",
         "ref": "v0.28.1",
         "repo": "namada",
+    "neutron-query-relayer-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702563942,
+        "narHash": "sha256-ofqTHLW91FDDcr2nCKLYwqmAOUIOd09KKKgKqkQJ2SQ=",
+        "owner": "v26-solutions",
+        "repo": "neutron-query-relayer",
+        "rev": "2c7991ad7d3f721ed523e078b64531089721f362",
+        "type": "github"
+      },
+      "original": {
+        "owner": "v26-solutions",
+        "repo": "neutron-query-relayer",
+        "rev": "2c7991ad7d3f721ed523e078b64531089721f362",
         "type": "github"
       }
     },
@@ -1377,6 +1391,7 @@
         "juno-src": "juno-src",
         "migaloo-src": "migaloo-src",
         "namada-src": "namada-src",
+        "neutron-query-relayer-src": "neutron-query-relayer-src",
         "neutron-src": "neutron-src",
         "nix-std": "nix-std",
         "nix2container": "nix2container",

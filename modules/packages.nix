@@ -173,6 +173,11 @@
           inherit (cosmosLib) mkCosmosGoApp;
           inherit (inputs) rollapp-evm-src;
         };
+        neutron-query-relayer = import ../packages/neutron-query-relayer.nix {
+          inherit (inputs) neutron-query-relayer-src;
+          inherit (self'.packages) libwasmvm_1_5_0;
+          inherit cosmosLib;
+        };
       }
       # This list contains attr sets that are recursively merged into the
       # base attrset

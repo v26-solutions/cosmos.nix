@@ -73,6 +73,9 @@
     ica-src.url = "github:cosmos/interchain-accounts-demo";
     ica-src.flake = false;
 
+    neutron-query-relayer-src.url = "github:v26-solutions/neutron-query-relayer?rev=2c7991ad7d3f721ed523e078b64531089721f362";
+    neutron-query-relayer-src.flake = false;
+
     # Chain Sources
     gaia-main-src.url = "github:cosmos/gaia";
     gaia-main-src.flake = false;
