@@ -15,4 +15,5 @@ cosmosLib.mkCosmosGoApp {
     ${cosmosLib.wasmdPreFixupPhase libwasmvm_1_5_2 "neutrond"}
   '';
   buildInputs = [libwasmvm_1_5_2];
+  tags = [ "skip_ccv_msg_filter" ];
 }

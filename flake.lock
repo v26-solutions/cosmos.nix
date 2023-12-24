@@ -1000,6 +1000,9 @@
         "owner": "anoma",
         "ref": "v0.28.1",
         "repo": "namada",
+        "type": "github"
+      }
+    },
     "neutron-query-relayer-src": {
       "flake": false,
       "locked": {

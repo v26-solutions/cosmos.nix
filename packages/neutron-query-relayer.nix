@@ -8,6 +8,7 @@ cosmosLib.mkCosmosGoApp rec {
   name = "neutron_query_relayer";
   version = "v0.2.0";
   src = neutron-query-relayer-src;
+  rev = neutron-query-relayer-src.rev;
   vendorHash = "sha256-QoHGZsi+1g1OdECWR4VSEr5RONT9V5x9cI50sJs8w+c=";
   engine = "cometbft/cometbft";
   preFixup = ''
